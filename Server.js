@@ -19,7 +19,7 @@ const foodrouter = require("./Router/FoodProductRouter")
 //MiddleWare
 app.use(express.json())
 app.use(cors({
-    origin: 'http://localhost:3000', 
+    origin: 'https://project2frontend.vercel.app', 
     credentials: true  
   }));
 app.use(cookieParser())
